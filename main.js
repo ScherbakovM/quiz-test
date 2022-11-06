@@ -131,7 +131,7 @@ function loadMarkup(arg2){
 btnStart.addEventListener('click', () => {
     
      clearChild(quizMarkup);
-     setTimeout(function(load){loadMarkup(quizMarkup)}, 300);
+     loadMarkup(quizMarkup);
     
 });
 
@@ -139,7 +139,7 @@ btnStart.addEventListener('click', () => {
 
 btnRestart.addEventListener('click', () => {
     
-    setTimeout(function(clear){clearChild(quizMarkup)},1000);
-    setTimeout(function(load){loadMarkup(quizMarkup)}, 1500);
+    clearChild(quizMarkup);
+    loadMarkup(quizMarkup);
        
 });   
