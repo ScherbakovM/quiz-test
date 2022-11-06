@@ -11,19 +11,6 @@ body {
     align-items: center;  
     background-color:  #20baf0; 
 }
-.congratLottie {
-    display: none;
-    top: 20%;
-    position: absolute;
-    z-index: 100;
-}
-
-.congratLottieON {
-    display: block;
-    top: 0;
-    position: absolute;
-    z-index: 100;
-}
 
 .quiz {
     display: flex;
@@ -166,13 +153,6 @@ body {
         z-index: 1;
     }
 
-    .congratLottieON {
-        display: block;
-        top: 160px;
-        position: absolute;
-        z-index: 100;
-    }
-
 }
 
 @media (max-width:1400px){
@@ -191,12 +171,6 @@ body {
         z-index: 1;
     }
 
-    .congratLottieON {
-        display: block;
-        top: 160px;
-        position: absolute;
-        z-index: 100;
-    }
 
 
 }
@@ -295,4 +269,6 @@ body {
         height: 45vh;
         
     }
+
+    
 }

@@ -130,7 +130,6 @@ function loadMarkup(arg2){
 
 btnStart.addEventListener('click', () => {
     
-     congratulation.classList.add('congratLottieON');
      setTimeout(function(clear){clearChild(quizMarkup)},1000);
      setTimeout(function(load){loadMarkup(quizMarkup)}, 1500);
     
@@ -140,7 +139,6 @@ btnStart.addEventListener('click', () => {
 
 btnRestart.addEventListener('click', () => {
     
-    congratulation.classList.add('congratLottieON') 
     setTimeout(function(clear){clearChild(quizMarkup)},1000);
     setTimeout(function(load){loadMarkup(quizMarkup)}, 1500);
        
