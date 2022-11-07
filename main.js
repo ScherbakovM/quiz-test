@@ -69,11 +69,11 @@ while(arg.firstChild) {
 
 function finalText(argument){
     if(argument >= 7){
-        questionsDiv.innerHTML = "Quiz пройден! Поздравляем!</br>" + "Ты ответил на " + count + "!" + " вопросов из 10! </br> ";
+        questionsDiv.innerHTML = "Поздравляем!</br>" + "Ты ответил на " + count + " вопросов из 10 </br> ";
         setTimeout(function(load){quizMarkup.appendChild(questionsDiv)});
         }
     else {
-        questionsDiv.innerHTML = "&#128529 </br> Потрачено!</br>" + "Ты ответил на "+ count + "!"+ " вопросов из 10! </br> " + " Попробуй еще!";
+        questionsDiv.innerHTML = "&#128529 </br> Потрачено!</br>" + "Ты ответил на "+ count + " вопросов из 10 </br> " + " Попробуй еще!";
         setTimeout(function(load){quizMarkup.appendChild(questionsDiv)});
      }  
 }
