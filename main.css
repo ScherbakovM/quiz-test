@@ -273,17 +273,22 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
     body {
         
-        font-size: 18px;
+        font-size: 19px;
        
     }
     .quiz {
         width: 70%;
         height: 45vh;
         
+    }
+
+    #btnRestartQuiz{
+        
+        margin-top: 120px;
     }
 
     
