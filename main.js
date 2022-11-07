@@ -75,6 +75,12 @@ function finalText(argument){
     else {
         questionsDiv.innerHTML = "&#128529 </br> Потрачено!</br>" + "Ты ответил на "+ count + " вопросов из 10 </br> " + " Попробуй еще!";
         setTimeout(function(load){quizMarkup.appendChild(questionsDiv)});
+        const btnRestartQuiz = document.createElement('button');
+        btnRestartQuiz.innerHTML = "Попробовать еще"
+        btnRestartQuiz.id = "btnRestartQuiz";
+        questionsDiv.appendChild(btnRestartQuiz);
+        btnRestartQuiz.addEventListener('click', () => {
+            location.reload()})
      }  
 }
 

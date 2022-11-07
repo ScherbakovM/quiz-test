@@ -117,8 +117,23 @@ body {
     cursor: pointer;
 }
 
+#btnRestartQuiz{
+    margin-top: 140px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    transition: 0.5s ease;
+    border: 2px solid var(--textColorWeight);
+    border-radius: 1px;
+    cursor: pointer;
+    bottom: 300px;
+}
+
 #AnswerOne:hover,
-#AnswerTwo:hover {
+#AnswerTwo:hover,
+#btnRestartQuiz:hover {
     width: 150px;
     height: 40px;
     background-color: rgb(249, 139, 253);
@@ -132,6 +147,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
